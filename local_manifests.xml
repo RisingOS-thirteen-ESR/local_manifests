@@ -1,8 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remove-project name="platform/external/libxml2" />
+  <remove-project name="platform/tools/apksig" />
+  <remove-project name="RisingTechOSS/android_build" />
+  <remove-project name="RisingTechOSS/android_frameworks_base" />
+  <remove-project name="RisingTechOSS/android_frameworks_native" />
+  <remove-project name="RisingTechOSS/android_packages_apps_Settings" />
+  <remove-project name="RisingTechOSS/android_packages_modules_Bluetooth" />
+  <remove-project name="RisingTechOSS/android_packages_providers_MediaProvider" />
+  <remove-project name="RisingTechOSS/android_packages_services_Telecomm" />
   <remove-project name="RisingTechOSS/android_vendor_rising" />
 
+  <project path="build/make" name="RisingOS-thirteen-ESR/android_build" groups="pdk" revision="thirteen" >
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="external/libxml2" name="LineageOS/android_external_libxml2" groups="pdk,libxml2" />
+  <project path="frameworks/base" name="RisingOS-thirteen-ESR/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" revision="thirteen" />
+  <project path="frameworks/native" name="RisingOS-thirteen-ESR/android_frameworks_native" groups="pdk" revision="thirteen" />
   <project path="packages/apps/Cromite" name="plros-lab/android_packages_apps_Cromite" revision="lineage-20.0" remote="gitlab" />
+  <project path="packages/apps/Settings" name="RisingOS-thirteen-ESR/android_packages_apps_Settings" groups="pdk-fs" revision="thirteen" />
+  <project path="packages/modules/Bluetooth" name="RisingOS-thirteen-ESR/android_packages_modules_Bluetooth" groups="pdk" revision="thirteen" />
+  <project path="packages/providers/MediaProvider" name="RisingOS-thirteen-ESR/android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" revision="thirteen" />
+  <project path="packages/services/Telecomm" name="RisingOS-thirteen-ESR/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" revision="thirteen" />
+  <project path="tools/apksig" name="LineageOS/android_tools_apksig" groups="pdk,tradefed" />
   <project path="vendor/lineage" name="RisingOS-thirteen-ESR/android_vendor_rising" revision="thirteen" />
   <project path="vendor/extra" name="RisingOS-thirteen-ESR/android_vendor_extra" revision="thirteen" />
 </manifest>
