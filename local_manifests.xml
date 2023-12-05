@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remove-project name="platform/cts" />
+  <remove-project name="platform/external/pdfium" />
   <remove-project name="platform/external/libxml2" />
   <remove-project name="platform/packages/modules/DnsResolver" />
   <remove-project name="platform/packages/modules/StatsD" />
   <remove-project name="platform/system/ca-certificates" />
+  <remove-project name="platform/system/netd" />
   <remove-project name="platform/tools/apksig" />
   <remove-project name="RisingTechOSS/android_build" />
   <remove-project name="RisingTechOSS/android_frameworks_av" />
   <remove-project name="RisingTechOSS/android_frameworks_base" />
   <remove-project name="RisingTechOSS/android_frameworks_native" />
+  <remove-project name="RisingTechOSS/android_packages_apps_Launcher3" />
   <remove-project name="RisingTechOSS/android_packages_apps_Settings" />
   <remove-project name="RisingTechOSS/android_packages_modules_Bluetooth" />
   <remove-project name="RisingTechOSS/android_packages_providers_MediaProvider" />
@@ -23,11 +27,14 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
+  <project path="cts" name="LineageOS/android_cts" groups="cts,pdk-cw-fs,pdk-fs" />
   <project path="external/libxml2" name="LineageOS/android_external_libxml2" groups="pdk,libxml2" />
+  <project path="external/pdfium" name="LineageOS/android_external_pdfium" groups="pdk" />
   <project path="frameworks/av" name="RisingOS-thirteen-ESR/android_frameworks_av" groups="pdk" revision="thirteen" />
   <project path="frameworks/base" name="RisingOS-thirteen-ESR/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" revision="thirteen" />
   <project path="frameworks/native" name="RisingOS-thirteen-ESR/android_frameworks_native" groups="pdk" revision="thirteen" />
   <project path="packages/apps/Cromite" name="plros-lab/android_packages_apps_Cromite" revision="lineage-20.0" remote="gitlab" />
+  <project path="packages/apps/Launcher3" name="RisingOS-thirteen-ESR/android_packages_apps_Launcher3" revision="thirteen" />
   <project path="packages/apps/Settings" name="RisingOS-thirteen-ESR/android_packages_apps_Settings" groups="pdk-fs" revision="thirteen" />
   <project path="packages/modules/Bluetooth" name="RisingOS-thirteen-ESR/android_packages_modules_Bluetooth" groups="pdk" revision="thirteen" />
   <project path="packages/modules/DnsResolver" name="LineageOS/android_packages_modules_DnsResolver" groups="pdk-cw-fs,pdk-fs" />
@@ -35,6 +42,7 @@
   <project path="packages/providers/MediaProvider" name="RisingOS-thirteen-ESR/android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" revision="thirteen" />
   <project path="packages/services/Telecomm" name="RisingOS-thirteen-ESR/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" revision="thirteen" />
   <project path="system/ca-certificates" name="LineageOS/android_system_ca-certificates" groups="pdk" />
+  <project path="system/netd" name="LineageOS/android_system_netd" groups="pdk" clone-depth="1" />
   <project path="tools/apksig" name="LineageOS/android_tools_apksig" groups="pdk,tradefed" />
   <project path="vendor/lineage" name="RisingOS-thirteen-ESR/android_vendor_rising" revision="thirteen" />
   <project path="vendor/extra" name="RisingOS-thirteen-ESR/android_vendor_extra" revision="thirteen" />
