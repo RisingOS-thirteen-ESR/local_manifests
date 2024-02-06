@@ -13,6 +13,7 @@
   <remove-project name="RisingTechOSS/android_frameworks_base" />
   <remove-project name="RisingTechOSS/android_frameworks_native" />
   <remove-project name="RisingTechOSS/android_packages_apps_Launcher3" />
+  <remove-project name="RisingTechOSS/android_packages_apps_Nfc" />
   <remove-project name="RisingTechOSS/android_packages_apps_Settings" />
   <remove-project name="RisingTechOSS/android_packages_modules_Bluetooth" />
   <remove-project name="RisingTechOSS/android_packages_providers_MediaProvider" />
@@ -35,6 +36,7 @@
   <project path="frameworks/native" name="RisingOS-thirteen-ESR/android_frameworks_native" groups="pdk" revision="thirteen" />
   <project path="packages/apps/Cromite" name="plros-lab/android_packages_apps_Cromite" revision="lineage-20.0" remote="gitlab" />
   <project path="packages/apps/Launcher3" name="RisingOS-thirteen-ESR/android_packages_apps_Launcher3" revision="thirteen" />
+  <project path="packages/apps/Nfc" name="RisingOS-thirteen-ESR/android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" revision="thirteen" />
   <project path="packages/apps/Settings" name="RisingOS-thirteen-ESR/android_packages_apps_Settings" groups="pdk-fs" revision="thirteen" />
   <project path="packages/modules/Bluetooth" name="RisingOS-thirteen-ESR/android_packages_modules_Bluetooth" groups="pdk" revision="thirteen" />
   <project path="packages/modules/DnsResolver" name="LineageOS/android_packages_modules_DnsResolver" groups="pdk-cw-fs,pdk-fs" />
