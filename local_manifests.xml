@@ -8,6 +8,7 @@
   <remove-project name="platform/system/ca-certificates" />
   <remove-project name="platform/system/netd" />
   <remove-project name="platform/tools/apksig" />
+  <remove-project name="RisingTechOSS/android_bionic" />
   <remove-project name="RisingTechOSS/android_build" />
   <remove-project name="RisingTechOSS/android_frameworks_av" />
   <remove-project name="RisingTechOSS/android_frameworks_base" />
@@ -20,6 +21,7 @@
   <remove-project name="RisingTechOSS/android_packages_services_Telecomm" />
   <remove-project name="RisingTechOSS/android_vendor_rising" />
 
+  <project path="bionic" name="RisingTechOSS/android_bionic" groups="pdk" revision="thirteen-jemalloc" />
   <project path="build/make" name="RisingOS-thirteen-ESR/android_build" groups="pdk" revision="thirteen" >
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
