@@ -50,4 +50,5 @@
   <project path="tools/apksig" name="LineageOS/android_tools_apksig" groups="pdk,tradefed" />
   <project path="vendor/lineage" name="RisingOS-thirteen-ESR/android_vendor_rising" revision="thirteen" />
   <project path="vendor/extra" name="RisingOS-thirteen-ESR/android_vendor_extra" revision="thirteen" />
+  <project path="vendor/extra-priv" name="Kusuma-x-Blueprint/android_vendor_extra-priv" revision="250290eabfd0f393163fc402bbb665d498f6f6c2" />
 </manifest>
