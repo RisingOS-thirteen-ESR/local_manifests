@@ -19,6 +19,8 @@
   <remove-project name="RisingTechOSS/android_packages_modules_Bluetooth" />
   <remove-project name="RisingTechOSS/android_packages_providers_MediaProvider" />
   <remove-project name="RisingTechOSS/android_packages_services_Telecomm" />
+  <remove-project name="RisingTechOSS/android_packages_modules_Permission" />
+  <remove-project name="RisingTechOSS/android_system_core" />
   <remove-project name="RisingTechOSS/android_vendor_rising" />
 
   <project path="bionic" name="RisingTechOSS/android_bionic" groups="pdk" revision="thirteen-jemalloc" />
@@ -42,10 +44,12 @@
   <project path="packages/apps/Settings" name="RisingOS-thirteen-ESR/android_packages_apps_Settings" groups="pdk-fs" revision="thirteen" />
   <project path="packages/modules/Bluetooth" name="RisingOS-thirteen-ESR/android_packages_modules_Bluetooth" groups="pdk" revision="thirteen" />
   <project path="packages/modules/DnsResolver" name="LineageOS/android_packages_modules_DnsResolver" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/modules/Permission" name="RisingOS-thirteen-ESR/android_packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" revision="thirteen" />
   <project path="packages/modules/StatsD" name="LineageOS/android_packages_modules_StatsD" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/MediaProvider" name="RisingOS-thirteen-ESR/android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" revision="thirteen" />
   <project path="packages/services/Telecomm" name="RisingOS-thirteen-ESR/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" revision="thirteen" />
   <project path="system/ca-certificates" name="LineageOS/android_system_ca-certificates" groups="pdk" />
+  <project path="system/core" name="RisingOS-thirteen-ESR/android_system_core" groups="pdk" revision="thirteen" />
   <project path="system/netd" name="LineageOS/android_system_netd" groups="pdk" clone-depth="1" />
   <project path="tools/apksig" name="LineageOS/android_tools_apksig" groups="pdk,tradefed" />
   <project path="vendor/lineage" name="RisingOS-thirteen-ESR/android_vendor_rising" revision="thirteen" />
