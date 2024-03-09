@@ -38,7 +38,7 @@
   <project path="frameworks/av" name="RisingOS-thirteen-ESR/android_frameworks_av" groups="pdk" revision="thirteen" />
   <project path="frameworks/base" name="RisingOS-thirteen-ESR/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" revision="thirteen" />
   <project path="frameworks/native" name="RisingOS-thirteen-ESR/android_frameworks_native" groups="pdk" revision="thirteen" />
-  <project path="packages/apps/Cromite" name="plros-lab/android_packages_apps_Cromite" revision="lineage-20.0" remote="gitlab" />
+  <project path="packages/apps/CromitePrebuilt" name="plros-lab/android_packages_apps_CromitePrebuilt" revision="lineage-20.0" remote="gitlab" />
   <project path="packages/apps/Launcher3" name="RisingOS-thirteen-ESR/android_packages_apps_Launcher3" revision="thirteen" />
   <project path="packages/apps/Nfc" name="RisingOS-thirteen-ESR/android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" revision="thirteen" />
   <project path="packages/apps/Settings" name="RisingOS-thirteen-ESR/android_packages_apps_Settings" groups="pdk-fs" revision="thirteen" />
