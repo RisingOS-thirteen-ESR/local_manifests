@@ -13,6 +13,7 @@
   <remove-project name="RisingTechOSS/android_frameworks_av" />
   <remove-project name="RisingTechOSS/android_frameworks_base" />
   <remove-project name="RisingTechOSS/android_frameworks_native" />
+  <remove-project name="minaripenguin/android_lineage-sdk" />
   <remove-project name="LineageOS/android_packages_apps_Aperture" />
   <remove-project name="RisingTechOSS/android_packages_apps_Launcher3" />
   <remove-project name="RisingTechOSS/android_packages_apps_Nfc" />
@@ -40,6 +41,7 @@
   <project path="frameworks/av" name="RisingOS-thirteen-ESR/android_frameworks_av" groups="pdk" revision="thirteen" />
   <project path="frameworks/base" name="RisingOS-thirteen-ESR/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" revision="thirteen" />
   <project path="frameworks/native" name="RisingOS-thirteen-ESR/android_frameworks_native" groups="pdk" revision="thirteen" />
+  <project path="lineage-sdk" name="RisingOS-thirteen-ESR/android_lineage-sdk" revision="thirteen" />
   <project path="packages/apps/Aperture" name="Kusuma-x-Blueprint/android_packages_apps_Aperture" />
   <project path="packages/apps/CromitePrebuilt" name="plros-lab/android_packages_apps_CromitePrebuilt" revision="lineage-20.0" remote="gitlab" />
   <project path="packages/apps/Eleven" name="Kusuma-x-Blueprint/android_packages_apps_Eleven" />
